@@ -1,19 +1,41 @@
 .App {
   text-align: center;
 }
-
+*{
+  background-color: #282c34;
+}
 .App {
   background-color: #282c34;
-  min-height: 100vh;
-  padding: 10%;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
   font-size:50px;
   size: 100px
 }
-/* CSS */
-.buttons {
-  border: 100px;
+.voltas{
+  color: rgb(202, 202, 202) ;
+  font-size: 68px;
+  font-weight: bold;
+}
+.voltas span{
+  font-weight: bold;
+  font-size: 288px;
+}
+
+button{
+  background-color: rgb(202, 202, 202);
+  border: 1px solid black;
+  font-size: 18px;
+  padding: 22px;
+  margin: 8px;
+}
+.tempo{
+  color: rgb(202, 202, 202);
+  font-size: 30px;
+  font-weight: bold;
+}
+.tempo span{
+  color: rgb(202, 202, 202);
+  font-size: 64px;
+  font-weight: bold;
 }
